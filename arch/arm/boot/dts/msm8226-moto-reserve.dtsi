@@ -16,3 +16,5 @@
 /* Reserve for persistent memory - bootinfo backup for last_kmsg */
 /memreserve/ 0x3eb00000 0x800;
 
+/* Reserve for persistent memory - kernel hard boot */
+/memreserve/ 0x3e9e0000 0x100000;
